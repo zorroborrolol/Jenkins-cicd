@@ -10,7 +10,7 @@ pipeline {
    stage('Checkout') {
       steps {
         sh 'echo passed'
-        cleanWs()
+        //cleanWs()
         //git branch: 'main', url: 'https://github.com/zorroborrolol/Jenkins-cicd.git'
       }
     }
